@@ -1,0 +1,158 @@
+/* Reset CSS */
+
+
+
+/* Style header */
+header {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left:0;
+
+}
+
+header h1 {
+  color: white;
+  border: white 5px solid;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+
+/* Style the banner */
+
+
+
+.banner {
+  position: relative;
+  
+}
+
+.banner img {
+  width: 100%;
+ 
+}
+
+.welcome {
+  position: absolute;
+  top: 30%;
+  left:0;
+  background-color: #FEB642;
+  padding: 10px;
+  color: white;
+}
+
+.welcome h2 {
+  font-size: 50px;
+}
+
+.welcome span {
+  font-size: 1.3em;
+}
+
+/* Style the Nav */
+
+nav {
+  background-color: #F4F4F4;
+  padding: 20px;
+  position: sticky;
+  top: 90px;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+  font-size: 24px;
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: #4B4B4B;
+  font-size: 0.8em;
+}
+
+nav li .join {
+  color: red;
+
+}
+
+/* Style the main */
+
+main {
+  width: 100%;
+  margin: 80 px, auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+main p {
+  color: grey;
+  text-align: justify;
+  line-height: 2em;
+}
+
+.image {
+  text-align: center;
+  padding: 0;
+  white-space: nowrap;
+
+}
+
+.image li{
+  display: inline-block;
+  width: 40%;
+  margin: 20px 5%;
+  
+
+}
+
+.image li img {
+  max-width: 100%;
+}
+
+/* styling form */
+
+.join {
+  background-color: #F4F4F4;
+  padding: 20px;
+  text-align: center;
+}
+
+.join h2 {
+  color: grey
+}
+.join p{
+  font-size: 0.8em;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.join form input {
+ 
+  background-color: white;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 20px;
+  color: grey
+
+}
+
+footer {
+  color: white;
+  background-color: red;
+  text-align: center;
+  padding: 5px 0;
+}
